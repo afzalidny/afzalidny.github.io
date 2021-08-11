@@ -1,0 +1,65 @@
+c:\users\computer\documents\visual studio 2015\Projects\q\q\bin\Debug\q.exe.config
+c:\users\computer\documents\visual studio 2015\Projects\q\q\bin\Debug\q.exe
+c:\users\computer\documents\visual studio 2015\Projects\q\q\bin\Debug\q.pdb
+c:\users\computer\documents\visual studio 2015\Projects\q\q\bin\Debug\Bunifu_UI_v1.5.3.dll
+c:\users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.csprojResolveAssemblyReference.cache
+c:\users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.Form1.resources
+c:\users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.Properties.Resources.resources
+c:\users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.csproj.GenerateResource.Cache
+c:\users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.exe
+c:\users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.pdb
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\bin\Debug\Guna.UI2.dll
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\bin\Debug\Kavenegar.dll
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\bin\Debug\Newtonsoft.Json.dll
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\bin\Debug\Newtonsoft.Json.xml
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.sms.resources
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.STRprogress.resources
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.forgetpass.resources
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.forget_password.resources
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.customerfrm.resources
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.orderfrm.resources
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.reportfrm.resources
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.settingsfrm.resources
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.mains.resources
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.prd.resources
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.anbarA.resources
+C:\Users\computer\Documents\Visual Studio 2015\Projects\q\q\obj\Debug\q.main_Frooshgah.resources
+C:\Users\computer\Documents\Visual Studio 2015\Projects\q\q\obj\Debug\q.report.resources
+C:\Users\computer\documents\visual studio 2015\Projects\q\q\obj\Debug\q.login.resources
+C:\Users\computer\Desktop\q\q\bin\Debug\q.exe.config
+C:\Users\computer\Desktop\q\q\obj\Debug\q.exe
+C:\Users\computer\Desktop\q\q\obj\Debug\q.pdb
+C:\Users\computer\Desktop\q\q\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\computer\Desktop\q\q\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\computer\Desktop\q\q\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\computer\Desktop\q\q\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\computer\Desktop\q\q\bin\Debug\q.exe
+C:\Users\computer\Desktop\q\q\bin\Debug\q.pdb
+C:\Users\computer\Desktop\q\q\bin\Debug\Guna.UI2.dll
+C:\Users\computer\Desktop\q\q\bin\Debug\Kavenegar.dll
+C:\Users\computer\Desktop\q\q\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\computer\Desktop\q\q\bin\Debug\Newtonsoft.Json.dll
+C:\Users\computer\Desktop\q\q\bin\Debug\Newtonsoft.Json.xml
+C:\Users\computer\Desktop\q\q\obj\Debug\q.csprojResolveAssemblyReference.cache
+C:\Users\computer\Desktop\q\q\obj\Debug\q.anbarA.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.customerfrm.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.forget_password.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.forgetpass.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.Form1.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.login.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.mains.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.orderfrm.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.prd.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.Properties.Resources.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.settingsfrm.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.sms.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.STRprogress.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.csproj.GenerateResource.Cache
+C:\Users\computer\Desktop\q\q\obj\Debug\q.csproj.q.exe.config
+C:\Users\computer\Desktop\q\q\obj\Debug\RdlCompile.cache
+C:\Users\computer\Desktop\q\q\obj\Debug\RdlCompile.compiled
+C:\Users\computer\Desktop\q\q\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\computer\Desktop\q\q\obj\Debug\q.report_anbar.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.calculator.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.report_kala.resources
+C:\Users\computer\Desktop\q\q\obj\Debug\q.report_sefaresh.resources

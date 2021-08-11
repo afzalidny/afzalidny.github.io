@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D51F1B8-3A98-4A0D-8939-6C6ADA0F28DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>q</RootNamespace>
+    <AssemblyName>q</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.2.0, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.2\lib\net40\Guna.UI2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Kavenegar, Version=1.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Kavenegar.1.2.4\lib\net35\Kavenegar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1449.0\lib\net40\Microsoft.ReportViewer.WebDesign.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="anbarA.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="anbarA.Designer.cs">
+      <DependentUpon>anbarA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calculator.Designer.cs">
+      <DependentUpon>calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customerfrm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="customerfrm.Designer.cs">
+      <DependentUpon>customerfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete_anb.cs" />
+    <Compile Include="FooroushgahDataSet.cs">
+      <DependentUpon>FooroushgahDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FooroushgahDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FooroushgahDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="forget password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forget password.Designer.cs">
+      <DependentUpon>forget password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forgetpass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forgetpass.Designer.cs">
+      <DependentUpon>forgetpass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mains.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mains.Designer.cs">
+      <DependentUpon>mains.cs</DependentUpon>
+    </Compile>
+    <Compile Include="orderfrm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="orderfrm.Designer.cs">
+      <DependentUpon>orderfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="prd.Designer.cs">
+      <DependentUpon>prd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="report_anbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="report_anbar.Designer.cs">
+      <DependentUpon>report_anbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report_kala.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="report_kala.Designer.cs">
+      <DependentUpon>report_kala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report_sefaresh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="report_sefaresh.Designer.cs">
+      <DependentUpon>report_sefaresh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="settingsfrm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="settingsfrm.Designer.cs">
+      <DependentUpon>settingsfrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sms.Designer.cs">
+      <DependentUpon>sms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="STRprogress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STRprogress.Designer.cs">
+      <DependentUpon>STRprogress.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="anbarA.resx">
+      <DependentUpon>anbarA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="calculator.resx">
+      <DependentUpon>calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customerfrm.resx">
+      <DependentUpon>customerfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forget password.resx">
+      <DependentUpon>forget password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forgetpass.resx">
+      <DependentUpon>forgetpass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mains.resx">
+      <DependentUpon>mains.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderfrm.resx">
+      <DependentUpon>orderfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prd.resx">
+      <DependentUpon>prd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="report_anbar.resx">
+      <DependentUpon>report_anbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_kala.resx">
+      <DependentUpon>report_kala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_sefaresh.resx">
+      <DependentUpon>report_sefaresh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settingsfrm.resx">
+      <DependentUpon>settingsfrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sms.resx">
+      <DependentUpon>sms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STRprogress.resx">
+      <DependentUpon>STRprogress.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="FooroushgahDataSet.xsc">
+      <DependentUpon>FooroushgahDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FooroushgahDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FooroushgahDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FooroushgahDataSet.xss">
+      <DependentUpon>FooroushgahDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chaclate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7894197.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pr1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anbar3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anbar11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cust2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SALE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SALE2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACKUP1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAVE3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008-design.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008-design1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-search2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-search3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savv1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SALE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACKUP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pr2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-search4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008-design2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAVE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008-design3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAVE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACKUP2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clc.png" />
+    <None Include="Resources\clc1.png" />
+    <None Include="Resources\clc2.png" />
+    <None Include="Resources\clc3.png" />
+    <None Include="Resources\cl.png" />
+    <None Include="Resources\back1.jpg" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
