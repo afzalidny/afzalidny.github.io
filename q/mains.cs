@@ -15,7 +15,7 @@ namespace q
         public mains()
         {
             InitializeComponent();
-            //panel2.Visible =false;
+            panel2.Visible =false;
            
         }
         private void movepanel(Control btn)
@@ -175,7 +175,22 @@ namespace q
 
         private void panel_main_Paint(object sender, PaintEventArgs e)
         {
+            
+        }
 
+        private void panel_main_MouseEnter(object sender, EventArgs e)
+        {
+            panel_sid.Width = 40;
+        }
+
+        private void panel_sid_MouseEnter(object sender, EventArgs e)
+        {
+            panel_sid.Width = 150;
+        }
+
+        private void mains_Load(object sender, EventArgs e)
+        {
+            panel_sid.Width = 40;
         }
     }
 }

@@ -22,7 +22,7 @@ namespace q
 
         private void calculator_Load(object sender, EventArgs e)
         {
-
+            textdisplay.Text = "0";
         }
 
         private void numericvalue(object sender, EventArgs e)
@@ -91,6 +91,30 @@ namespace q
             else
                 this.Show();
                 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+          this. WindowState = FormWindowState.Minimized;
+        }
+
+       
+
+        
+
+        private void textdisplay_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void btnCE_Click(object sender, EventArgs e)

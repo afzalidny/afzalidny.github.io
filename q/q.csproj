@@ -36,6 +36,9 @@
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\..\..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3.1.5.3.0.Fakes">
+      <HintPath>FakesAssemblies\Bunifu_UI_v1.5.3.1.5.3.0.Fakes.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2, Version=2.0.2.0, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.2\lib\net40\Guna.UI2.dll</HintPath>
       <Private>True</Private>
@@ -43,6 +46,9 @@
     <Reference Include="Kavenegar, Version=1.2.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Kavenegar.1.2.4\lib\net35\Kavenegar.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
@@ -88,6 +94,10 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WhatsAppApi, Version=1.0.2.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Whatsapp.NET.1.2.2\lib\WhatsAppApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="anbarA.cs">
@@ -109,6 +119,12 @@
       <DependentUpon>customerfrm.cs</DependentUpon>
     </Compile>
     <Compile Include="delete_anb.cs" />
+    <Compile Include="editinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editinfo.Designer.cs">
+      <DependentUpon>editinfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FooroushgahDataSet.cs">
       <DependentUpon>FooroushgahDataSet.xsd</DependentUpon>
     </Compile>
@@ -122,18 +138,6 @@
     </Compile>
     <Compile Include="forget password.Designer.cs">
       <DependentUpon>forget password.cs</DependentUpon>
-    </Compile>
-    <Compile Include="forgetpass.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="forgetpass.Designer.cs">
-      <DependentUpon>forgetpass.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -184,6 +188,12 @@
     <Compile Include="report_sefaresh.Designer.cs">
       <DependentUpon>report_sefaresh.cs</DependentUpon>
     </Compile>
+    <Compile Include="setting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="setting.Designer.cs">
+      <DependentUpon>setting.cs</DependentUpon>
+    </Compile>
     <Compile Include="settingsfrm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -203,6 +213,12 @@
     <Compile Include="STRprogress.Designer.cs">
       <DependentUpon>STRprogress.cs</DependentUpon>
     </Compile>
+    <Compile Include="varify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="varify.Designer.cs">
+      <DependentUpon>varify.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="anbarA.resx">
       <DependentUpon>anbarA.cs</DependentUpon>
     </EmbeddedResource>
@@ -212,14 +228,11 @@
     <EmbeddedResource Include="customerfrm.resx">
       <DependentUpon>customerfrm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="editinfo.resx">
+      <DependentUpon>editinfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forget password.resx">
       <DependentUpon>forget password.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="forgetpass.resx">
-      <DependentUpon>forgetpass.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
@@ -248,6 +261,9 @@
     <EmbeddedResource Include="report_sefaresh.resx">
       <DependentUpon>report_sefaresh.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="setting.resx">
+      <DependentUpon>setting.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="settingsfrm.resx">
       <DependentUpon>settingsfrm.cs</DependentUpon>
     </EmbeddedResource>
@@ -257,6 +273,10 @@
     <EmbeddedResource Include="STRprogress.resx">
       <DependentUpon>STRprogress.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="varify.resx">
+      <DependentUpon>varify.cs</DependentUpon>
+    </EmbeddedResource>
+    <Fakes Include="Fakes\Bunifu_UI_v1.5.3.fakes" />
     <None Include="FooroushgahDataSet.xsc">
       <DependentUpon>FooroushgahDataSet.xsd</DependentUpon>
     </None>
@@ -433,6 +453,7 @@
     <None Include="Resources\clc3.png" />
     <None Include="Resources\cl.png" />
     <None Include="Resources\back1.jpg" />
+    <None Include="Resources\FORGETPASS.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

@@ -174,17 +174,18 @@ namespace q
                 printDocument1.Print();
         }
 
-        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
-        {
-            Graphics graphics = e.Graphics;
-            Font font = new Font("Courier New ", 14);
-            float fontweight = font.GetHeight();
-            int startx = 190;
-            int starty = 40;
-            int offset = 20;
-            float leftmargin = e.MarginBounds.Left;
-            float topmargin = e.MarginBounds.Top;
-            graphics.DrawString("welcom to Harko market Shop Report",new Font("couier new ",20),new SolidBrush(Color.Black),startx,starty);
-        }
-    } }
+        //private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        ////{
+        ////    Graphics graphics = e.Graphics;
+        ////    Font font = new Font("Courier New ", 14);
+        //    float fontweight = font.GetHeight();
+        //    int startx = 190;
+        //    int starty = 40;
+        //    int offset = 20;
+        //    float leftmargin = e.MarginBounds.Left;
+        //    float topmargin = e.MarginBounds.Top;
+        //        //graphics.DrawString("welcom to Harko market Shop Report",new Font("couier new ",20),new SolidBrush(Color.Black),startx,starty);
+        //    }
+        } 
+    }
     

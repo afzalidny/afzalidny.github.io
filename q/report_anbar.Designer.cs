@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            //Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            //this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.FooroushgahDataSet = new q.FooroushgahDataSet();
             this.anbar1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.anbar1TableAdapter = new q.FooroushgahDataSetTableAdapters.anbar1TableAdapter();
@@ -40,16 +40,16 @@
             // 
             // reportViewer1
             // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.anbar1BindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "q.Report4.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(815, 616);
-            this.reportViewer1.TabIndex = 0;
-            // 
+            ////this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            //reportDataSource1.Name = "DataSet1";
+            //reportDataSource1.Value = this.anbar1BindingSource;
+            ////this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            ////this.reportViewer1.LocalReport.ReportEmbeddedResource = "q.Report4.rdlc";
+            //this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            //this.reportViewer1.Name = "reportViewer1";
+            //this.reportViewer1.Size = new System.Drawing.Size(815, 616);
+            //this.reportViewer1.TabIndex = 0;
+            //// 
             // FooroushgahDataSet
             // 
             this.FooroushgahDataSet.DataSetName = "FooroushgahDataSet";
@@ -68,7 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.reportViewer1);
+            //this.Controls.Add(this.reportViewer1);
             this.Name = "report_anbar";
             this.Size = new System.Drawing.Size(815, 616);
             ((System.ComponentModel.ISupportInitialize)(this.FooroushgahDataSet)).EndInit();
@@ -79,7 +79,7 @@
 
         #endregion
 
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        //private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
         private System.Windows.Forms.BindingSource anbar1BindingSource;
         private FooroushgahDataSet FooroushgahDataSet;
         private FooroushgahDataSetTableAdapters.anbar1TableAdapter anbar1TableAdapter;

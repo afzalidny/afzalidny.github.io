@@ -1,0 +1,58 @@
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for FileDownloader: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for : type signature contains identifiers that are not callable from C#.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.LICENSE.Verify: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.LICENSE.License: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.Lib.Encryption: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.Lib.Elipse: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.Lib.Graphics: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.UI.BunifuCustomControl: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.Lib.HTTP: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.Lib.Styles: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.UI.BunifuUserControl: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.UI.Verify: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.Lib.cmd: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.Lib.identity: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for Bunifu.Framework.Lib.RestAPI: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for BunifuAnimatorNS.AnimationType: type is a value type.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for BunifuAnimatorNS.AnimateMode: type is a value type.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for BunifuAnimatorNS.DecorationControl: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for BunifuAnimatorNS.DecorationType: type is a value type.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for BunifuAnimatorNS.TransfromHelper: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for BunifuAnimatorNS.Flags: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for <PrivateImplementationDetails>: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for WindowsFormsControlLibrary1.DoubleBitmapForm: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for WindowsFormsControlLibrary1.Properties.Resources: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for WindowsFormsControlLibrary1.Properties.Settings: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for : type signature contains identifiers that are not callable from C#.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for 50: type is a value type.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate stub for 54: type is sealed.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for FileDownloader: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for : type signature contains identifiers that are not callable from C#.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for Bunifu.Framework.LICENSE.Verify: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for Bunifu.Framework.LICENSE.License+: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for Bunifu.Framework.Lib.Encryption: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for Bunifu.Framework.Lib.Graphics: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for Bunifu.Framework.UI.BunifuCustomControl+: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for Bunifu.Framework.Lib.HTTP: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for Bunifu.Framework.Lib.Styles: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for Bunifu.Framework.UI.BunifuUserControl+: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for Bunifu.Framework.UI.Verify: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for Bunifu.Framework.Lib.cmd: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for BunifuAnimatorNS.AnimationType: type is an enum.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for BunifuAnimatorNS.BunifuTransition+: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for BunifuAnimatorNS.BunifuTransition+: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for BunifuAnimatorNS.BunifuTransition+: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for BunifuAnimatorNS.BunifuTransition+QueueItem: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for BunifuAnimatorNS.AnimateMode: type is an enum.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for BunifuAnimatorNS.DecorationControl: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for BunifuAnimatorNS.IFakeControl: type is an interface.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for BunifuAnimatorNS.DecorationType: type is an enum.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for BunifuAnimatorNS.TransfromHelper: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for BunifuAnimatorNS.Flags+WindowStyles: type is an enum.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for <PrivateImplementationDetails>: type is not supported because of internal limitations.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for WindowsFormsControlLibrary1.DoubleBitmapForm: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for WindowsFormsControlLibrary1.Properties.Resources: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for WindowsFormsControlLibrary1.Properties.Settings: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for : type signature contains identifiers that are not callable from C#.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for 50: type is an enum.
+C:\Users\computer\Desktop\proje C#\q\q\Fakes\Bunifu_UI_v1.5.3.fakes : warning : Cannot generate shim for 54: type is not visible to exported or assembly(Bunifu_UI_v1.5.3.1.5.3.0.Fakes).

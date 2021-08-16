@@ -16,7 +16,7 @@ namespace q
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new STRprogress());
+            Application.Run(new forget_password());
         }
     }
 }

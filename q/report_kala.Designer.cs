@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            //this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.SuspendLayout();
             // 
             // reportViewer1
             // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(815, 616);
-            this.reportViewer1.TabIndex = 0;
-            // 
-            // report_kala
+            //this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            //this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            //this.reportViewer1.Name = "reportViewer1";
+            //this.reportViewer1.Size = new System.Drawing.Size(815, 616);
+            //this.reportViewer1.TabIndex = 0;
+            //// 
+            //// report_kala
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.reportViewer1);
+            //this.Controls.Add(this.reportViewer1);
             this.Name = "report_kala";
             this.Size = new System.Drawing.Size(815, 616);
             this.ResumeLayout(false);
@@ -52,6 +52,6 @@
 
         #endregion
 
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        //private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
     }
 }
